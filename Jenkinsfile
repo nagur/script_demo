@@ -17,7 +17,7 @@ pipeline {
                 echo 'Deploying....'
                 Stage("Monitor"){
                     steps {
-                        echo "Monitoring"
+                        echo "Monitoring my app"
                     }
                 }
             }
